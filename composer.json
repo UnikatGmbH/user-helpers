@@ -1,0 +1,29 @@
+{
+    "name": "unikat/user-helpers",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "unikat",
+            "email": "unikat@yourdomain.com"
+        }
+    ],
+    "autoload": {
+            "psr-4": {
+                "Unikat\\UserHelpers\\": "src/"
+            }
+        },
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Unikat\\UserHelpers\\UserHelpersServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
